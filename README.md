@@ -16,7 +16,7 @@
 
 ## 复制给自己的 Codex
 
-复制下方提示词给自己的 Codex；也可以把 URL 换成已下载的仓库目录。当前仓库为私有预览，下载者需要仓库读取权限；公开后，其他人即可使用同一链接安装。
+复制下方提示词给自己的 Codex，让它下载、审阅并安装插件；也可以把 URL 换成已下载的仓库目录。仓库提供完整源码，你可以提出自己的显示或统计需求，让 Codex 在本地修改。
 
 ```text
 请帮我安装并启用 Codex TPS。
@@ -72,7 +72,7 @@ codex plugin marketplace add /absolute/path/to/this/repository
 codex plugin add codex-tps-monitor@mie-codex-tps
 ```
 
-marketplace 地址也可以使用 `https://github.com/Mie-coder/codex-tps`（私有仓库需要读取权限）。目录必须完整包含隐藏的 `.agents/plugins/marketplace.json` 和插件的 `.codex-plugin/plugin.json`；不要只上传 README 或 scripts。
+marketplace 地址也可以使用 `https://github.com/Mie-coder/codex-tps`。目录必须完整包含隐藏的 `.agents/plugins/marketplace.json` 和插件的 `.codex-plugin/plugin.json`；不要只上传 README 或 scripts。
 
 ## 查看与检查
 
@@ -137,7 +137,7 @@ Hook 使用官方生命周期接口；底部显示仍依赖 CDP 与客户端 DOM
 
 上传**本目录的全部源码和隐藏目录**，使用建议仓库名 `codex-tps`。不要上传当前聊天工作区、会话 JSONL、auth.json、config.toml、.runtime、个人统计或生成的客户端 .app。本发行目录已经与开发记录分开。
 
-当前仓库地址为 https://github.com/Mie-coder/codex-tps；如果发布到自己的新仓库，请同步修改安装提示词中的 URL。仓库可供有读取权限的 Codex 通过官方 marketplace 加入；这不等于发布到 OpenAI 的公共插件目录。
+当前仓库地址为 https://github.com/Mie-coder/codex-tps；如果发布到自己的新仓库，请同步修改安装提示词中的 URL。仓库可供其他 Codex 通过官方 marketplace 加入；这不等于发布到 OpenAI 的公共插件目录。
 
 ## 来源与许可
 
