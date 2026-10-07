@@ -1,0 +1,14 @@
+Codex TPS includes CDP transport and target-selection code adapted from:
+KevinKE93/Codex-Monitor (MIT)
+https://github.com/KevinKE93/Codex-Monitor
+Reference commit: 56b2ea3602cf8395bdc9d0513a8088f8e38d657e
+Copyright (c) 2026 Kevin Ke
+The original MIT notice is retained in LICENSE and the plugin LICENSE.
+
+The effective-TPS measurement approach was informed by adenta/codex-tps:
+https://github.com/adenta/codex-tps
+
+No Codex/ChatGPT application binary, application icon, credentials, private
+session transcripts or local runtime statistics are distributed in this package.
+The macOS launcher optionally copies the user's locally installed application
+icon at installation time; that icon is not included in this repository.

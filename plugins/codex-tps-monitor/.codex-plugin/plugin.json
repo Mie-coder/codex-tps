@@ -1,0 +1,22 @@
+{
+  "name": "codex-tps-monitor",
+  "version": "0.2.1",
+  "description": "Per-turn TPS via the official Stop Hook, with optional macOS reply footer display.",
+  "license": "MIT",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Codex TPS",
+    "shortDescription": "每轮 TPS 统计，支持原生 Hook 详情与 macOS 底部显示",
+    "category": "Productivity",
+    "capabilities": [
+      "Local",
+      "Read",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "检查 TPS Hook 状态",
+      "查看最近的 TPS 统计"
+    ]
+  }
+}

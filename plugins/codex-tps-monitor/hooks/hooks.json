@@ -1,0 +1,17 @@
+{
+  "description": "每轮结束时只读本轮日志，统计 TPS，并通过 Codex 原生 Hook 详情显示。",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/scripts/stop_hook.py\"",
+            "timeout": 5,
+            "statusMessage": "TPS 提示详情"
+          }
+        ]
+      }
+    ]
+  }
+}

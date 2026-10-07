@@ -1,0 +1,20 @@
+{
+  "name": "mie-codex-tps",
+  "interface": {
+    "displayName": "MIE Codex TPS"
+  },
+  "plugins": [
+    {
+      "name": "codex-tps-monitor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-tps-monitor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
